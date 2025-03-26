@@ -27,5 +27,5 @@ let missingcats = (line*catsforline) - cats
 console.log(line);
 console.log(missingcats);
 
-onsole.log(`${cats} gatti in fila per ${catsforline} col resto di ${missingcats}`);
+console.log(`${cats} gatti in fila per ${catsforline} col resto di ${missingcats}`);
 
