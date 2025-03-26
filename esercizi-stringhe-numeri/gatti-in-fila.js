@@ -19,8 +19,8 @@ Per l'arrotondamento ti consiglio di non usare Math.round (arrotonda all'intero 
   http://www.imparareaprogrammare.it
 */
 
-let cats = 5;
-let catsforline = 2;
+let cats = 44;
+let catsforline = 6;
 let line = Math.ceil(cats/catsforline); 
 let missingcats = (line*catsforline) - cats
 
