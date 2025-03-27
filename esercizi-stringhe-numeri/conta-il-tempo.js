@@ -12,3 +12,10 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let totalseconds = 12560;
+let hours = Math.floor(totalseconds/3600);
+let minutes = Math.floor((totalseconds % 3600) / 60);
+let seconds = (totalseconds % 60);
+
+console.log(`${totalseconds} equivalgono a ${hours} ore, ${minutes} minuti e ${seconds} secondi`);
