@@ -11,3 +11,16 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let year = 2025;
+let birth = 1991;
+
+let age = year - birth;
+let missing = 100 - age;
+
+console.log('Età = ' + age);
+console.log('Per arrivare a 100 = ' + missing); //Questa sintassi trasforma i valori numerici in stringa
+
+console.log(`La persona ha ${age} anni e di conseguenza mancano ancora ${missing} anni per arrivare a 100`);
+
+
