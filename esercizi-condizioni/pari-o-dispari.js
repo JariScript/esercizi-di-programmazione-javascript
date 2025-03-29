@@ -15,3 +15,13 @@
 
   http://www.imparareaprogrammare.it
 */
+
+let number = 63;
+let even = 0;
+let odd = 1;
+
+if (number % 2 === 0) {
+  console.log(`${even} = Il numero è pari`);  
+} else {
+  console.log(`${odd} = Il numero è dispari`);
+}
